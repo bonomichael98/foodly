@@ -46,12 +46,9 @@ Post.init(
       type: DataTypes.STRING,
       allowNull: false
     },
-    post_url: {
+    post_body: {
       type: DataTypes.STRING,
-      allowNull: false,
-      validate: {
-        isURL: true
-      }
+      allowNull: false
     },
     user_id: {
       type: DataTypes.INTEGER,
@@ -59,7 +56,20 @@ Post.init(
         model: 'user',
         key: 'id'
       }
-    }
+    },
+    tag_id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      references: {
+        model: "tags",
+        key: "id"
+      }
+    },
+    ingredients: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+
   },
   {
     sequelize,
