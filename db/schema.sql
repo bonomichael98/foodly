@@ -1,3 +1,3 @@
 DROP DATABASE IF EXISTS foodly_db;
 
-CREATE DATABASE museum_db;
+CREATE DATABASE foodly_db;
