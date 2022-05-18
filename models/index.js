@@ -67,14 +67,14 @@ Post.hasMany(Comment, {
   foreignKey: 'post_id'
 });
 
-Post.belongsToMany(Tags, {
+Post.belongsTo(Tags, {
   foreignKey: 'tag_id',
-  onDelete: 'SET NULL'
+  
 });
 
-Tags.belongsToMany(Post, {
+Tags.HasMany(Post, {
   foreignKey: 'id',
-  onDelete: 'SET NULL'
+  
 });
 
 module.exports = { User, Post, Vote, Comment, Tags };
