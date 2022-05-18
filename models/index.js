@@ -67,12 +67,13 @@ Post.hasMany(Comment, {
   foreignKey: 'post_id'
 });
 
-Post.belongsTo(Tags, {
-  foreignKey: 'tag_id',
-});
+// Tags.hasMany(Post, {
+//   foreignKey: 'id',
+// });
 
-Tags.hasMany(Post, {
+Post.hasOne(Tags, {
   foreignKey: 'id',
 });
+
 
 module.exports = { User, Post, Vote, Comment, Tags };
