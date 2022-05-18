@@ -5,7 +5,7 @@ const Vote = require('./Vote');
 const Comment = require('./Comment');
 const Tags = require('./Tags');
 
-// create associations
+
 User.hasMany(Post, {
   foreignKey: 'user_id'
 });
@@ -69,12 +69,10 @@ Post.hasMany(Comment, {
 
 Post.belongsTo(Tags, {
   foreignKey: 'tag_id',
-  
 });
 
-Tags.HasMany(Post, {
+Tags.hasMany(Post, {
   foreignKey: 'id',
-  
 });
 
 module.exports = { User, Post, Vote, Comment, Tags };
