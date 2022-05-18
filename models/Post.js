@@ -47,7 +47,7 @@ Post.init(
       allowNull: false
     },
     post_body: {
-      type: DataTypes.STRING,
+      type: DataTypes.ARRAY,
       allowNull: false
     },
     user_id: {
@@ -66,7 +66,7 @@ Post.init(
       }
     },
     ingredients: {
-      type: DataTypes.STRING,
+      type: DataTypes.ARRAY,
       allowNull: true,
     },
 
