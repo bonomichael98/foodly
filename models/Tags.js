@@ -12,10 +12,10 @@ Tag.init(
       allowNull: false,
       primaryKey: true,
       autoIncrement: true,
-      references:{
-        model: "Post",
-        key: "tag_id"
-      }
+      // references:{
+      //   model: "post",
+      //   key: "tag_id"
+      // }
     },
     tag_name: {
       type: DataTypes.STRING,
