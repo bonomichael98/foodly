@@ -47,7 +47,7 @@ Post.init(
       allowNull: false
     },
     post_body: {
-      type: DataTypes.ARRAY,
+      type: DataTypes.STRING,
       allowNull: false
     },
     user_id: {
