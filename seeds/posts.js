@@ -9,10 +9,8 @@ const recipesData = [
          "1 pound Brussels sprouts ,Extra-virgin olive oil for drizzling,Sea salt and freshly ground black pepper,Lemon Parmesan seasoning,1 tablespoon lemon juice, plus 2 teaspoons zest 1 tablespoon grated, or 1/4 cup shaved Parmesan cheese, 1 tablespoon fresh thyme leaves parsley leaves, for garnish, pinch of red pepper flakes "
     ],
     //instructions/blob of text
-    post_body: [
-        "Preheat the oven to 425° and line a baking sheet with parchment paper. Slice the Brussels sprouts in half, toss with drizzles of olive oil and pinches of salt and pepper, and spread on the baking sheet. Roast 20 to 30 minutes or until tender and golden brown around the edges. The exact timing will depend on the size of your sprouts.",
-        "If desired, toss the roasted Brussels sprouts with the lemon juice, zest, Parmesan, and thyme leaves. Garnish with parsley and red pepper flakes."
-    ],
+    post_body: 
+        "Preheat the oven to 425° and line a baking sheet with parchment paper. Slice the Brussels sprouts in half, toss with drizzles of olive oil and pinches of salt and pepper, and spread on the baking sheet. Roast 20 to 30 minutes or until tender and golden brown around the edges. The exact timing will depend on the size of your sprouts., If desired, toss the roasted Brussels sprouts with the lemon juice, zest, Parmesan, and thyme leaves. Garnish with parsley and red pepper flakes.",
     //diet types
     tag_id: 
         //change this later
@@ -40,7 +38,7 @@ const recipesData = [
   {
     title: "garlic butter baked salmon",
     ingredients: "1 pound (500 g) fingerling potatoes, halved (or Yukon golds or halved white/red baby potatoes), 2 tablespoons olive oil, 1 1/2 teaspoons salt, divided, 1/2 teaspoon cracked black pepper, divided, 4 (6 oz | 170 g) skinless salmon fillets, 2 1/2 tablespoons minced garlic, divided, 2 tablespoons fresh chopped parsley, 1/3 cup freshly squeezed lemon juice, 1/2 cup melted unsalted butter, 3 bunches asparagus, (18 spears, woody ends removed), 2 tablespoons dry white wine (substitute with 1/4 cup low-sodium chicken broth),1 lemon sliced to garnish",
-    
+
     post_body: 
         "Heat oven to 400°F | 200°C. On a large rimmed baking sheet, toss together potatoes with the oil, 1/2 tablespoon of garlic, 1/2 teaspoon salt, and 1/4 teaspoon pepper. Spread out in an even layer and roast for 15 minutes until they're just starting to soften and brown.Push potatoes to one side of the sheet pan and arrange salmon down the centre. Rub salmon evenly with 1 1/2 tablespoons of the minced garlic and 2 tablespoons of parsley. Add the asparagus to the other side of the pan.Combine 1/4 cup of lemon juice and 1/4 cup of the melted butter together and pour the mixture over the salmon and asparagus. Season everything with the remaining salt and pepper.Return to oven and continue baking until the potatoes are golden and fork-tender and the salmon is opaque throughout, (about 10 minutes). Optional: broil in the last 2 minutes for charred edges.,Meanwhile, in a small bowl, combine the remaining butter, garlic and lemon juice with the wine (or chicken stock). Serve with the salmon, veggies and lemon slices!",
     tag_id: "Vegetarian",

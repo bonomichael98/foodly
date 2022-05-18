@@ -66,7 +66,7 @@ Post.init(
       }
     },
     ingredients: {
-      type: DataTypes.ARRAY,
+      type: DataTypes.STRING,
       allowNull: true,
     },
 
