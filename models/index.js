@@ -67,13 +67,8 @@ Post.hasMany(Comment, {
   foreignKey: 'post_id'
 });
 
-// Tags.hasMany(Post, {
-//   foreignKey: 'id',
-// });
-
-Post.hasOne(Tags, {
+Tags.hasMany(Post, {
   foreignKey: 'id',
 });
-
 
 module.exports = { User, Post, Vote, Comment, Tags };
