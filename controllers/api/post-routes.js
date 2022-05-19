@@ -1,7 +1,8 @@
 const router = require('express').Router();
 const { Router } = require('express');
 const sequelize = require('../../config/connection');
-const { Post, User, Comment, Vote, Recipes } = require('../../models');
+//Recipes was removed from the below variable
+const { Post, User, Comment, Vote } = require('../../models');
 
 
 router.get('/', (req, res) => {

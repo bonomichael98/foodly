@@ -67,10 +67,6 @@ Post.hasMany(Comment, {
   foreignKey: 'post_id'
 });
 
-Post.belongsTo(Tags, {
-  foreignKey: 'tag_id',
-});
-
 Tags.hasMany(Post, {
   foreignKey: 'id',
 });

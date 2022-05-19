@@ -11,7 +11,11 @@ Tag.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
-      autoIncrement: true
+      autoIncrement: true,
+      // references:{
+      //   model: "post",
+      //   key: "tag_id"
+      // }
     },
     tag_name: {
       type: DataTypes.STRING,
