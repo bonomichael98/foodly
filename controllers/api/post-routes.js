@@ -4,6 +4,7 @@ const sequelize = require('../../config/connection');
 //Recipes was removed from the below variable
 const { Post, User, Comment, Vote } = require('../../models');
 
+//directory is http://localhost:3001/api/post
 
 router.get('/', (req, res) => {
     Post.findAll()
