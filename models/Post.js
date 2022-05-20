@@ -59,6 +59,7 @@ Post.init(
     },
     tag_id: {
       type: DataTypes.INTEGER,
+      //this was set to true
       allowNull: false,
       references: {
         model: "tags",
@@ -66,7 +67,7 @@ Post.init(
       }
     },
     ingredients: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
       allowNull: true,
     },
 
