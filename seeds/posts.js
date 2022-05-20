@@ -1,4 +1,4 @@
-const { Recipes } = require("../models");
+const { Post } = require("../models");
 
 const recipesData = [
   {
@@ -44,6 +44,6 @@ const recipesData = [
   },
 ];
 
-const recipesList = () => Recipes.bulkCreate(recipesData);
+const recipesList = () => Post.bulkCreate(recipesData);
 
 module.exports = recipesList;

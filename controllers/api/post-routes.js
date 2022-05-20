@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const { Router } = require('express');
 const sequelize = require('../../config/connection');
-//Recipes was removed from the below variable
+//Tags added to the below variable
 const { Post, User, Comment, Vote, Tags } = require('../../models');
 
 //directory is http://localhost:3001/api/post
