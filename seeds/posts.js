@@ -14,7 +14,7 @@ const recipesData = [
     tag_id: 
         1,
     //username/user_id
-    user_id: 876458765867
+    user_id: 1
   },
   {
     title: "Thai Pineapple Fried Rice",
@@ -23,7 +23,7 @@ const recipesData = [
     post_body: 
         "Heat a large wok, cast iron skillet or non-stick frying pan over medium-high heat and place an empty serving bowl nearby. Once the pan is hot enough that a drop of water sizzles on contact, add 1 teaspoon oil. Pour in the eggs and cook, stirring frequently, until the eggs are scrambled and lightly set, about 30 seconds to 1 minute. Transfer the eggs to the empty bowl. Wipe out the pan if necessary with a paper towel (be careful, it’s hot!). Add 1 tablespoon oil to the pan and add the pineapple and red pepper. Cook, stirring constantly, until the liquid has evaporated and the pineapple is caramelized on the edges, about 3 to 5 minutes. Then add the green onion and garlic. Cook until fragrant while stirring constantly, about 30 seconds. Transfer the contents of the pan to your bowl of eggs. Reduce the heat to medium and add the remaining 2 teaspoons oil to the pan. Pour in the cashews and cook until fragrant, stirring constantly, about 30 seconds. Add the rice to the pan and stir to combine. Cook until the rice is hot, stirring occasionally, about 3 minutes. Pour the contents of the bowl back into the pan and stir to combine, breaking up the scrambled eggs with your spoon. Cook until the contents are warmed through, then remove the pan from heat. Add the tamari and chili garlic sauce, to taste. Squeeze the juice of ½ lime over the dish and stir to combine. Season to taste with salt and set aside. Slice the remaining ½ lime into 4 wedges. Transfer the stir-fry to individual serving bowls and garnish each bowl with a lime wedge and a light sprinkle of cilantro. Serve with bottles of tamari and chili garlic sauce or sriracha on the side, for those who might want to add more to their bowls.",
     tag_id: 1,
-    user_id: 3457665784856
+    user_id: 2
   },
   {
     title: "Parmesan Crusted Chicken",
@@ -31,7 +31,7 @@ const recipesData = [
     post_body: 
         "Set up three large shallow bowls in an assembly line. Put the flour in the first bowl; beat the eggs in the second bowl; and mix the bread crumbs, Parmesan cheese, salt, pepper, and chopped fresh herbs in the third bowl. Season chicken breasts with salt and pepper. Dredge the first chicken breast in the flour and shake off the excess until just a light coating remains. Next, dip the chicken in the egg mixture and turn to coat evenly, letting any excess egg drip off. Finally, dredge the chicken in the bread crumb mixture, turning a few times to coat well. Set breaded chicken on a plate and repeat until all of the chicken breasts are breaded. Heat the oil in a large sauté pan over medium heat. When the oil is hot, add the chicken breasts to the pan and cook for 2-3 minutes until the first side is golden brown. Flip and continue cooking until done, 2-3 minutes longer. Serve immediately with lemon wedges.",
     tag_id: 1,
-    user_id: 53454376685
+    user_id: 3
   },
   {
     title: "garlic butter baked salmon",
@@ -40,7 +40,7 @@ const recipesData = [
     post_body: 
         "Heat oven to 400°F | 200°C. On a large rimmed baking sheet, toss together potatoes with the oil, 1/2 tablespoon of garlic, 1/2 teaspoon salt, and 1/4 teaspoon pepper. Spread out in an even layer and roast for 15 minutes until they're just starting to soften and brown.Push potatoes to one side of the sheet pan and arrange salmon down the centre. Rub salmon evenly with 1 1/2 tablespoons of the minced garlic and 2 tablespoons of parsley. Add the asparagus to the other side of the pan.Combine 1/4 cup of lemon juice and 1/4 cup of the melted butter together and pour the mixture over the salmon and asparagus. Season everything with the remaining salt and pepper.Return to oven and continue baking until the potatoes are golden and fork-tender and the salmon is opaque throughout, (about 10 minutes). Optional: broil in the last 2 minutes for charred edges.,Meanwhile, in a small bowl, combine the remaining butter, garlic and lemon juice with the wine (or chicken stock). Serve with the salmon, veggies and lemon slices!",
     tag_id: 1,
-    user_id: 4324325643
+    user_id: 4
   },
 ];
 
