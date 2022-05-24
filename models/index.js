@@ -63,7 +63,7 @@ User.hasMany(Comment, {
   onDelete: 'SET NULL'
 });
 
-Post.hasMany(Comment, {
+Post.hasOne(Comment, {
   foreignKey: 'post_id'
 });
 

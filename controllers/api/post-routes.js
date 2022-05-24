@@ -26,6 +26,11 @@ router.post('/', (req, res) => {
         ingredients: req.body.ingredients,
         user_id: req.body.user_id
     })
+    .then(dbPostData => res.json(dbPostData))
+    .catch(err => {
+      console.log(err);
+      res.status(500).json(err);
+    });
 })
 
 router.put('/upvote', (req, res) => {
