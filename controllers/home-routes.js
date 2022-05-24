@@ -26,6 +26,6 @@ router.get('/login', (req, res) => {
 
 router.get('/new-post', (req,res) => {
   res.render('add-post')
-})
+});
 
 module.exports = router;
