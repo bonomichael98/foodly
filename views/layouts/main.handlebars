@@ -16,10 +16,6 @@
 </head>
 
 <body>
-    
-</body>
-
-<body>
         <header>
             <h1 class="site-heading text-center text-faded d-none d-lg-block">
                 <span class="site-heading-upper text-primary mb-3">We Are</span>
@@ -44,19 +40,36 @@
         </nav>
         
         <main>
+            <section class="page-section clearfix">
+                <div class="container">
+                        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+                            <h2 class="section-heading mb-4">
+                                {{!-- Title --}}
+                                <span class="section-heading-upper">Perfect Roasted Asparagus</span>
+                            </h2>
+                            {{!-- ingredients --}}
+                            <p class="mb-3">EveLemon zest and/or lemon wedges, Sprinkle of finely grated Parmesan cheese, Small handful of fresh mint or parsley, finely chopped, Light sprinkle of red pepper flakes,
+                            Pat or two of butter, Light drizzle of balsamic reduction or thick balsamic vinegar, Toasted sliced almonds.</p>
+                            {{!-- post_body --}}
+                            <p class="mb-3">Preheat the oven to 425 degrees Fahrenheit and line a large, rimmed baking sheet with parchment paper for easy cleanup. Snap off the woody ends of the asparagus (if you sharply bend the asparagus near the base, it will snap in the right place). Discard the ends.
+                            Place the asparagus on the sheet and drizzle with 1 to 2 teaspoons olive oil, just enough to lightly coat the asparagus. Sprinkle salt and pepper over the asparagus, and toss until the spears are lightly coated in oil. Arrange the spears in a single layer on the pan.
+                            Bake just until the base of the asparagus is easily pierced through by a fork. Very thin asparagus, like the kind shown here, will take as little as 9 to 12 minutes, whereas thicker asparagus will need 15 to 20 minutes.
+                            Transfer the roasted asparagus to a serving platter and season however you’d like. You could keep it simple with a squeeze of lemon juice, or a sprinkle of Parmesan, or add a pat of butter or drizzle of balsamic vinegar.
+                            Roasted asparagus is best served when it’s fresh out of the oven, but it will keep at room temperature for up to 1 hour or up to 4 days in the refrigerator (gently reheat before serving).  </p>
+                            </div>
+                </div>
+            </section>
             {{{ body }}}
         </main>
 
-    {{#if loggedIn}}
-    <script src="/javascript/logout.js"></script>
-    {{/if}}
-        
+
         <footer class="footer text-faded text-center py-5">
             <div class="container"><p class="m-0 small">Copyright &copy; Your Website 2022</p></div>
         </footer>
-        <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
+            {{#if loggedIn}}
+                <script src="/javascript/logout.js"></script>
+            {{/if}}
         <script src="js/scripts.js"></script>
     </body>
 
