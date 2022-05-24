@@ -1,13 +1,13 @@
 <ul class="post-list">
 
-{{#each post as |post|}}
+{{#each posts as |post|}}
     <li>
     <article class="post">
       <div class="title">
-        <a href="/views/single-post.handlebars" target="_blank">{{post.title}}</a>
+        <a class="section-heading mb-4 post-title" href="/views/single-post.handlebars" target="_blank">{{post.title}}</a>
       </div>
       <div class="meta">
-        Posted by {{post.user.username}} on {{post.created_at}}
+        Posted by {{post.user.username}}
       </div>
     </article>
     </li>
