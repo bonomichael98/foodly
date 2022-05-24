@@ -6,7 +6,7 @@ Foodly was developed by Group 1 which is comprised of Jay Ford, Josiah Douglas, 
 
 ## 03 Software
 Foodly uses multiple NPM packages as well as a CSS framework. The packages that Foodly uses are as follows -
-handlebars, express, express-handlebars, sequelize, bcrypt, dotenv, express-session, mysql2.
+handlebars, express, express-handlebars, sequelize, bcrypt, dotenv, express-session, mysql2, and jawsdb.
 The CSS framework that is utilized is Bootstrap.
 
 ## 04 Screenshots
@@ -16,4 +16,4 @@ The CSS framework that is utilized is Bootstrap.
 ## 05 Links
 
 [Repository](https://github.com/bonomichael98/foodly)
-[Deployed-Application]()
+[Deployed-Application](https://foodly2022.herokuapp.com/)
