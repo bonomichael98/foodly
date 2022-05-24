@@ -9,4 +9,11 @@ Foodly uses multiple NPM packages as well as a CSS framework. The packages that 
 handlebars, express, express-handlebars, sequelize, bcrypt, dotenv, express-session, mysql2.
 The CSS framework that is utilized is Bootstrap.
 
-## 04 
+## 04 Screenshots
+
+[Home-Screen](https://imgur.com/a/VULbKUX)
+
+## 05 Links
+
+[Repository](https://github.com/bonomichael98/foodly)
+[Deployed-Application]()
