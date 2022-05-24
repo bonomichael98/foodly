@@ -57,15 +57,15 @@ Post.init(
         key: 'id'
       }
     },
-    tag_id: {
-      type: DataTypes.INTEGER,
-      //this was set to true
-      allowNull: false,
-      references: {
-        model: "tags",
-        key: "id"
-      }
-    },
+    // tag_id: {
+    //   type: DataTypes.INTEGER,
+    //   //this was set to true
+    //   allowNull: false,
+    //   references: {
+    //     model: "tags",
+    //     key: "id"
+    //   }
+    // },
     ingredients: {
       type: DataTypes.TEXT,
       allowNull: true,

@@ -1,7 +1,7 @@
 const sequelize = require('../config/connection');
 const recipesList = require('../seeds/posts')
 const seedUsers = require('../seeds/user');
-const tagsList = require('./tags');
+// const tagsList = require('./tags');
 
 const seedAll = async () => {
   await sequelize.sync({ force: true });
@@ -10,7 +10,7 @@ const seedAll = async () => {
 
   await recipesList();
 
-  await tagsList();
+  // await tagsList();
 
   process.exit(0);
 };
