@@ -16,10 +16,6 @@
 </head>
 
 <body>
-    
-</body>
-
-<body>
         <header>
             <h1 class="site-heading text-center text-faded d-none d-lg-block">
                 <span class="site-heading-upper text-primary mb-3">We Are</span>
@@ -44,19 +40,21 @@
         </nav>
         
         <main>
+            <section id="post-display-section" class="page-section clearfix">
+                <div class="container">
+                </div>
+            </section>
             {{{ body }}}
         </main>
 
-    {{#if loggedIn}}
-    <script src="/javascript/logout.js"></script>
-    {{/if}}
-        
+
         <footer class="footer text-faded text-center py-5">
             <div class="container"><p class="m-0 small">Copyright &copy; Group 1 Project 2</p></div>
         </footer>
-        <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
+            {{#if loggedIn}}
+                <script src="/javascript/logout.js"></script>
+            {{/if}}
         <script src="js/scripts.js"></script>
     </body>
 
