@@ -26,4 +26,4 @@ async function createPostHandler(event) {
     console.log('click')
 };
 
-document.querySelector('.btn').addEventListener('click', createPostHandler);
+document.querySelector('.login-signup-btn').addEventListener('click', createPostHandler);
