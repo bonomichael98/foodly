@@ -24,4 +24,8 @@ router.get('/login', (req, res) => {
   res.render('login');
 });
 
+router.get('/new-post', (req,res) => {
+  res.render('add-post')
+})
+
 module.exports = router;
