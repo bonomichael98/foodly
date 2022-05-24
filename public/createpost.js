@@ -1,20 +1,16 @@
-const res = require("express/lib/response");
-
-const title = document.getElementById("title").value.trim();
-const ingredients = document.getElementById("ingredients").value.trim();
-const post_body = document.getElementById("post-content").value.trim();
-
-
 async function createPostHandler(event) {
+    event.preventDefault();
 
-    if (title && ingredients && post_body && user_id) {
-        const response = await fetch("/api/post", {
-            method: 'post',
+    const title = document.querySelector("#title").value.trim();
+    const post_body = document.querySelector("#post-content").value.trim();
+    const ingredients = document.querySelector("#ingredients").value.trim();
+
+        const response = await fetch("/api/post/", {
+            method: 'POST',
             body: JSON.stringify({
                 title,
                 post_body,
-                ingredients,
-                user_id
+                ingredients
             }),
             headers: {
                 'Content-Type': 'application/json'
@@ -23,11 +19,11 @@ async function createPostHandler(event) {
         });
 
         if (response.ok) {
-                document.location.replace('/dashboard');
+                document.location.replace('/');
         } else {
             alert(response.statusText);
         };
-    };
+    console.log('click')
 };
 
-document.querySelector('#create-new-post').addEventListener('click', createPostHandler);
+document.querySelector('.btn').addEventListener('click', createPostHandler);
